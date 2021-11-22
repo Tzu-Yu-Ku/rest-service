@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.App {
+  background-image: url('https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  padding: 0px 0px 20px 0px;
+  margin: 0px;
+  background-size: cover;
+}
+.logo{
+  padding: 100px
+}
+.logo h1 {
+  text-align: center;
+  padding: 10px;
+}
+.logo h1 span {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkcyan;
+  color: white;
+}
+.box-content {
+  text-align: start;
+}
+.box button {
+  padding: 10px;
+  margin: 10px;
+}
+.box-login {
+  text-align: end;
+}
+.bg-flat{
+  background-color: darkcyan;
+  color: white;
+}
+.content {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.login-box {
+  max-width: 500px;
+  background-color: whitesmoke;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.book-list {
+  text-align: center;
+}
+.book-preview {
+  padding: 0px;
+  margin: 20px 20px;
+  border-bottom: 1px solid #fafafa;
+  display: inline-block;
+  font-size: large;
+  text-align: start;
+}
+.book-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.book-preview h2 {
+  font-size: 20px;
+  color: #25c1d6;
+  margin-bottom: 5px;
+}
+.book-preview p {
+  margin:0px;
+}
+.book-preview img {
+  width: 180px;
+  padding: 0px;
+}
